@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ऑनलाइन स्वास्थ्य परामर्श</title>
+  </head>
+  <body>
+    <!-- नेविगेशन सेक्शन -->
+    <nav>
+      <div class="logo">
+        <img src="1-removebg-preview.png" alt="स्वास्थ्य परामर्श लोगो" />
+      </div>
+      <div class="nav-buttons">
+        <button id="language-button">भाषा</button>
+        <div id="language-dropdown" class="dropdown-content">
+          <ul>
+            <li>अंग्रेज़ी</li>
+            <li>हिंदी</li>
+            <li>तेलुगू</li>
+            <li>तमिल</li>
+            <li>मलयालम</li>
+          </ul>
+        </div>
+        <button id="profile-button">प्रोफ़ाइल</button>
+        <div id="language-dropdown1" class="dropdown-content1">
+          <ul>
+            <li>व्यक्तिगत विवरण</li>
+            <li>पिछले पर्चे</li>
+            <li>प्रोफ़ाइल अपडेट</li>
+            <li>लॉगआउट</li>
+          </ul>
+        </div>
+        <button id="login-button">लॉगिन/रजिस्टर</button>
+      </div>
+    </nav>
+    <section class="video">
+      <h1>स्वास्थ्य साथी</h1>
+      <p>स्वास्थ्य साथी एक वेब-आधारित एआई टेलीमेडिसिन प्लेटफार्म है जो ग्रामीण भारत में स्वास्थ्य असमानताओं का समाधान करता है। यह तुरंत एआई-संचालित प्राथमिक निदान प्रदान करता है और उपयुक्त डॉक्टरों को ई-संजीवनी ऐप के माध्यम से उपयोगकर्ताओं से जोड़ता है। यह समाधान स्वास्थ्य सेवाओं के अंतर्गत सेवाओं को तार करता है और अवसेवित क्षेत्रों में स्वास्थ्य परिणामों में सुधार करता है।</p>
+      <div class="img1">
+        <img src="indiandocter-transformed.png" alt="डॉक्टर चित्र" srcset="" />
+        <div>
+          <ol>
+            <pre>कदम
+              <li>अपने लक्षणों और लक्षणों की अवधि नीचे लिखें।</li>
+              <li>आपके द्वारा लिए जा रहे कोई दवा लिखें।</li>
+              <li>अपना तापमान, ब्लड प्रेशर, ऑक्सीजन स्तर और पल्स दर्ज करें।</li>
+              <li>अगर आपके पास कोई विशेष स्थिति है तो उसे लिखें।</li>
+            </pre>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- लक्षण सेक्शन -->
+    <section class="symptoms-section">
+      <h2>अपने लक्षण प्रदान करें</h2>
+      <form id="symptoms-form">
+        <label for="symptoms">अपने लक्षण दर्ज करें:</label>
+        <textarea
+          id="symptoms"
+          name="symptoms"
+          rows="4"
+          placeholder="अपने लक्षण वर्णित करें..."
+        ></textarea>
+        <button type="submit">सबमिट करें</button>
+      </form>
+    </section>
+    
+    <section class="connect-section">
+      <h1>डॉक्टर के साथ जुड़ें</h1>
+      <form id="symptoms-form">
+        <button type="submit">जुड़ें</button>
+      </form>
+    </section>
+    
+    <!-- पर्चा डाउनलोड सेक्शन -->
+    <section class "prescription-section">
+      <h2>पर्चा डाउनलोड करें</h2>
+      <button id="download-btn">डाउनलोड करें</button>
+      <script>
+        // JavaScript code for downloading prescription
+        // ...
+      </script>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
